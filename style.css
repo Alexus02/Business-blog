@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.blog{
+    width: 400px;
+    height: 530px;
+    margin: 130px auto;
+    background-image: url("resources/hero-image-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+img[alt="white-overlay"]{
+    position:absolute;
+    top: 350px;
+    width: 400px;
+
+}
+img[alt="avatar"]{
+    float:left; 
+    height:50px ;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+    border: solid 2px #F2F5F9;
+
+}
+.info{
+    position:relative;
+    top:290px;
+    margin:20px
+}
+body{
+    background-color: #F2F5F9;
+    font-family: "Lato",sans-serif;
+    font-size: 1rem;
+}
+h1{
+color:#111729 ;
+font-size: 1.5rem;
+}
+h3{
+color: #111729;
+
+}
+.footer{
+    line-height: 1.5;
+}
+p,span{
+    color: #4A5567;
+    line-height: 1.5;
+}
+hr{
+    margin-left: -20px;
+    margin-right: -20px;
+}
